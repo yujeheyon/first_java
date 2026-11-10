@@ -1,18 +1,28 @@
 public class Test {
-    public static void main(String[] args) {
-        String id = "user";
-        String pw = "9999";
+    public static void main(String[] args) 
+    {
+        int arr1[] = {10, 20, 30};
+        int arr2[] = new int[arr1.length];
         
-        if(id.equals("admin"))
+        for(int i = 0; i < arr1.length; i++)
         {
-            String login = (pw.equals("1234") ? "로그인 성공" : "비밀번호가 틀렸습니다.");
-            System.out.println(login);
-        }else if(! id.equals("admin") && pw.equals("1234"))
-        {
-            System.out.println("아이디가 틀렸습니다.");
-        }else
-        {
-            System.out.println("아이디와 비밀번호가 모두 틀렸습니다.");
+            arr2[i] = arr1[i];
         }
+
+        arr2[0] = 100;
+
+        System.out.print("arr1: ");
+        for(int i = 0; i < arr1.length; i++)
+        {
+            System.out.print(arr1[i] + " ");
+        }
+
+        System.out.println();
+        System.out.print("arr2: ");
+        for(int k = 0; k < arr2.length; k++)
+        {
+            System.out.print(arr2[k] + " ");
+        }
+
     }
 }
