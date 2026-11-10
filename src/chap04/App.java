@@ -33,7 +33,7 @@ public class App
                 System.out.println("총점: " + total);
             }else if(num.equals("2"))
             {
-                double avg = total / 3;
+                double avg = (double)total / 3;
                 System.out.println("평균: " + avg);
             }else if(num.equals("3"))
             {
