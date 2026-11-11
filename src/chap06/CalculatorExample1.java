@@ -1,10 +1,10 @@
 package chap06;
 
-public class CalculatorExample 
+public class CalculatorExample1 
 {
     public static void main(String[] args) 
     {
-        Calculator myCal = new Calculator();
+        Calculator1 myCal = new Calculator1();
         myCal.powerOn();
 
         int result1 = myCal.plus(5, 6);

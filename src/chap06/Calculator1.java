@@ -1,6 +1,6 @@
 package chap06;
 
-public class Calculator 
+public class Calculator1 
 {
     void powerOn()
     {
