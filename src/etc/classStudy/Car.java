@@ -1,4 +1,4 @@
-package etc;
+package etc.classStudy;
 
 public class Car 
 {

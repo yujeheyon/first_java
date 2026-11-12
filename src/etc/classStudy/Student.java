@@ -1,6 +1,6 @@
-package etc;
+package etc.classStudy;
 
-public class Student1 
+public class Student 
 {
     String name;
     int score;
@@ -13,7 +13,7 @@ public class Student1
 
     public static void main(String[] args) 
     {
-        Student1 student = new Student1();
+        Student student = new Student();
 
         student.printInfo("영희", 95);
         System.out.println("학생 이름: " + student.name);

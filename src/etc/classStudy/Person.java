@@ -1,6 +1,6 @@
-package etc;
+package etc.classStudy;
 
-public class Person1 
+public class Person 
 {
     String name;
     int age;
@@ -12,7 +12,7 @@ public class Person1
 
     public static void main(String[] args) 
     {
-        Person1 person = new Person1();
+        Person person = new Person();
         person.introduce("철수", 20);
     }
 }

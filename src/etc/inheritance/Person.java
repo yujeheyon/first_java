@@ -1,6 +1,6 @@
-package etc;
+package etc.inheritance;
 
-public class Person2 
+public class Person 
 {
     String name;
 

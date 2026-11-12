@@ -1,6 +1,6 @@
-package etc;
+package etc.inheritance;
 
-public class Student2 extends Person2
+public class Student extends Person
 {
     void study()
     {
@@ -9,7 +9,7 @@ public class Student2 extends Person2
 
     public static void main(String[] args) 
     {
-        Student2 student = new Student2();
+        Student student = new Student();
 
         student.introduce();
         student.study();
