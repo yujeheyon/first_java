@@ -1,6 +1,6 @@
 package chap07;
 
-public class Computer2 extends Calculator5
+public class Computer extends Calculator
 {
     @Override
     double areaCircle(double r)

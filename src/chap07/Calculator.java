@@ -1,6 +1,6 @@
 package chap07;
 
-public class Calculator5 
+public class Calculator 
 {
     double areaCircle(double r)
     {
