@@ -1,4 +1,4 @@
-package chap06;
+package chap07;
 
 public class People 
 {

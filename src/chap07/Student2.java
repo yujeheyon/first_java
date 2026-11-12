@@ -1,4 +1,4 @@
-package chap06;
+package chap07;
 
 public class Student2 extends People
 {

@@ -1,6 +1,6 @@
 package chap06;
 
-public class Student1 
+public class Student 
 {
     
 }
