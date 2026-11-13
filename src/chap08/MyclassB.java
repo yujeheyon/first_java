@@ -1,13 +1,7 @@
 package chap08;
 
-public class MyclassB implements Myinterface
+public class MyclassB extends MyclassA
 {
-    @Override 
-    public void method1()
-    {
-        System.out.println("MyClassB-method1() 실행");
-    }
-
     @Override 
     public void method2()
     {
