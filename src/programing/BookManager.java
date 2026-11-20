@@ -97,8 +97,8 @@ public class BookManager
     
                 }else
                 {
-                    System.out.println("등록된 도서가 없습니다.");
                     rs.close();
+                    System.out.println("등록된 도서가 없습니다.");
                     run = false;
                 }
             }    
