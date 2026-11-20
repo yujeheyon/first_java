@@ -32,6 +32,21 @@ public class BookManager
             e.printStackTrace();
         }
     }
+
+
+    // 프로그램 종료
+    public void exitFile()
+    {
+        if(conn != null)
+        {
+            try
+            {
+                // 연결 끊기
+                conn.close();
+                System.out.println("연결 끊기");
+            }catch(SQLException e) {}
+        }
+    }
     
     // 데이터 추가
     public void addItem(String id, String title, String author)
@@ -83,6 +98,7 @@ public class BookManager
                 }else
                 {
                     System.out.println("등록된 도서가 없습니다.");
+                    rs.close();
                     run = false;
                 }
             }    

@@ -44,7 +44,8 @@ public class LibraryMain
                 bm.displayAll();
             }else if(num.equals("3") || num.equals("q"))
             {
-                    run = false;
+                bm.exitFile();    
+                run = false;
             }else
             {
                 System.out.println("다시 입력하세요.");
